@@ -52,14 +52,18 @@ header img {
 .vision-motivacion-contenedor {
     position: relative;
     margin-top: 10px;
+    width: 100%;
 }
 
 .vision-motivacion-video-parrafo-contenedor {
     display: flex;
     position: relative;
-    flex-direction: column;
-    text-align: start;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 56.25%;
     z-index: 10;
+    width: 100%;
 
 
 }
@@ -72,9 +76,17 @@ header img {
 }
 
 .parrafo-vision-motivacion {
-
+    display: flex;
+    flex-direction: row;
     position: absolute;
     color: aliceblue;
+    width: 50%;
+    font-size: 0.9rem;
+    height: 100%;
+   align-items: center;
+   z-index: 10;
+   
+
 
 
 
