@@ -1,0 +1,35 @@
+[33mcommit e78e4b5509a7883073cbb8dc10b9b02aafb84cb0[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Manuel Brunfman <manubrunfman.dev@gmail.com>
+Date:   Tue Jun 4 20:34:10 2024 -0300
+
+    movil first terminado
+
+[33mcommit 72bfc5e9bd8d5ed5fed1810e55257e243e5d5213[m
+Author: Manuel Brunfman <manubrunfman.dev@gmail.com>
+Date:   Tue Jun 4 19:48:42 2024 -0300
+
+    seccion vision motivacion terminada desde resolucion 268
+
+[33mcommit b9f34354afc6ae975ce992853455df04ea1e6adb[m
+Author: Manuel Brunfman <manubrunfman.dev@gmail.com>
+Date:   Tue Jun 4 16:11:26 2024 -0300
+
+    problema de vision/motivacion solucionado con padding bottom en el contenedor padre del parrafo y el video
+
+[33mcommit 249fdc425f26bf0eb65de431a0e821a28166abd5[m[33m ([m[1;32mmain[m[33m)[m
+Author: Manuel Brunfman <manubrunfman.dev@gmail.com>
+Date:   Tue Jun 4 15:25:05 2024 -0300
+
+    vision/motivacion terminado, falta situar parrafo
+
+[33mcommit 1f25d1ed1e3dbd60ac8b60a9254b9f530a3902ba[m
+Author: Manuel Brunfman <manubrunfman.dev@gmail.com>
+Date:   Tue Jun 4 13:50:48 2024 -0300
+
+    inicio
+
+[33mcommit 7786aa4e299a65e91ecc33edf572dc2e9a68c971[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Manuel Brunfman <manubrunfman.dev@gmail.com>
+Date:   Mon Jun 3 10:37:15 2024 -0300
+
+    inicio del proyecto

@@ -11,7 +11,7 @@ a {
 }
 
 body {
-    padding: 5px;
+    padding: 10px;
     background-color: azure;
 }
 
@@ -54,6 +54,10 @@ header img {
 
 
 .h2-titulo {
+    padding-bottom: 10px;
+}
+
+.mis-proyectos-contenedor {
 
     padding-bottom: 10px ;
     text-align: center;
@@ -62,6 +66,7 @@ header img {
     position: relative;
     margin-top: 10px;
     width: 100%;
+    text-align: center;
 }
 
 .vision-motivacion-video-parrafo-contenedor {
@@ -114,3 +119,84 @@ padding: 5px;
     padding: 10px;
 
 }
+
+@media (min-width: 768px) {
+
+/*seccion header*/
+
+    header ul {
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        border: 1px solid rgb(112, 107, 107);
+        
+    }
+    header li {
+      
+        
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        align-items: center;
+        text-align: center;
+        
+       
+    
+    
+    }
+    
+    header img {
+    
+        width: 12%;
+        padding-bottom: 4px;
+    }
+    
+
+    /*seccion  vision*/
+
+
+.video-vision-motivacion {
+    width: 100%;
+    position: absolute;
+}
+
+.parrafo-vision-motivacion {
+
+    width: 100%;
+    font-size: 2rem;
+    padding: 100px;
+
+   
+}
+
+ /*seccion mis proyectos*/
+
+ .h2-mis-proyectos { 
+    grid-column: 1/4;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+ }
+
+ 
+.mis-proyectos-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagenes-mis-proyectos {
+    width: 100%;
+    padding: 20px;
+}
+
+.index-misproyectos-parrafos {
+
+    padding: 10px;
+
+}
+    
+  }
+
+  
