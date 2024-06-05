@@ -1,8 +1,10 @@
+/*index css*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -30,7 +32,7 @@ header {
 
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -43,10 +45,9 @@ header li {
     justify-content: space-around;
 }
 
-header img {
-
-    width: 12%;
-    padding-bottom: 4px;
+.header-logo {
+    width: 3rem;
+    padding-bottom: 5px;
 }
 
 
@@ -59,9 +60,10 @@ header img {
 
 .mis-proyectos-contenedor {
 
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
     text-align: center;
 }
+
 .vision-motivacion-contenedor {
     position: relative;
     margin-top: 10px;
@@ -97,11 +99,11 @@ header img {
     width: 100%;
     font-size: 0.9rem;
     height: 100%;
-   align-items: center;
-   z-index: 10;
-background-color: rgba(0, 0, 0, 0.7);
-padding: 5px;
-   
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+
 }
 
 /*seccion mis proyectos*/
@@ -109,6 +111,7 @@ padding: 5px;
 .mis-proyectos-contenedor {
     margin-top: 20px;
 }
+
 .imagenes-mis-proyectos {
     width: 100%;
     padding: 20px;
@@ -120,39 +123,55 @@ padding: 5px;
 
 }
 
+/*mis proyectos pagina css*/
+
+.pagina-mis-proyectos-contenedor {
+
+    display: grid;
+    padding: 30px;
+
+}
+
+.pagina-mis-proyectos-articulos {
+
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1fr;
+    padding: 25px;
+    gap: 50px;
+    text-align:center;
+}
+.pagina-mis-proyectos-imagen {
+    
+    width: 100%;
+}
+
+
+
 @media (min-width: 768px) {
 
-/*seccion header*/
+    /*seccion header*/
 
-    header ul {
+header ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid rgb(112, 107, 107);
+}
 
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        border: 1px solid rgb(112, 107, 107);
-        
-    }
-    header li {
-      
-        
-        list-style: none;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 700;
-        align-items: center;
-        text-align: center;
-        
-       
-    
-    
-    }
-    
-    header img {
-    
-        width: 12%;
-        padding-bottom: 4px;
-    }
-    
+header li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
 
-    /*seccion  vision*/
+.header-logo {
+
+    width: 5rem;
+}
+
+/*seccion  vision*/
 
 
 .video-vision-motivacion {
@@ -165,20 +184,18 @@ padding: 5px;
     width: 100%;
     font-size: 2rem;
     padding: 100px;
-
-   
 }
 
- /*seccion mis proyectos*/
+/*seccion mis proyectos*/
 
- .h2-mis-proyectos { 
+.h2-mis-proyectos {
     grid-column: 1/4;
     align-self: center;
     align-items: center;
     justify-content: center;
- }
+}
 
- 
+
 .mis-proyectos-contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -186,6 +203,7 @@ padding: 5px;
     align-items: center;
     justify-content: space-around;
 }
+
 .imagenes-mis-proyectos {
     width: 100%;
     padding: 20px;
@@ -196,7 +214,22 @@ padding: 5px;
     padding: 10px;
 
 }
-    
-  }
 
-  
+/*mis proyectos pagina css*/
+
+.pagina-mis-proyectos-contenedor {
+
+
+    padding: 30px;
+
+}
+
+.pagina-mis-proyectos-articulos {
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    padding: 25px;
+    gap: 50px;
+}
+}
